@@ -2,15 +2,15 @@
   "name": "ng-juxtapose",
   "version": "1.0.2",
   "description": "AngularJS directive for JuxtaposeJS, a JavaScript library for making before/after image sliders.",
-  "filename": "./src/ng-juxtapose.js",
-  "homepage": "http://github.com/tinesoft/ng-juxtapose",
+  "main": "src/index.js",
+  "homepage": "http://github.com/Truescape/ng-juxtapose",
   "author": {
     "name": "Tine Kondo",
-    "url": "http://github.com/tinesoft"
+    "url": "http://github.com/Truescape"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tinesoft/ng-juxtapose.git"
+    "url": "git://github.com/Truescape/ng-juxtapose.git"
   },
   "license": "MIT",
   "keywords": [
@@ -23,9 +23,11 @@
     "after"
   ],
   "bugs": {
-    "url": "http://github.com/tinesoft/ng-juxtapose/issues"
+    "url": "http://github.com/Truescape/ng-juxtapose/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "juxtaposejs": "^1.1.6"
+  },
   "devDependencies": {
     "grunt": "latest",
     "grunt-contrib-clean": "latest",
